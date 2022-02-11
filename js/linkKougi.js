@@ -2,7 +2,6 @@ changeStateColor();
 function changeStateColor() {
   const td02 = document.getElementsByClassName("td02")
   for(const state of td02) {
-    console.log(state.childNodes)
     if(state.childNodes[0].innerText) {
       switch (state.childNodes[0].innerText) {
         case '未実施' :

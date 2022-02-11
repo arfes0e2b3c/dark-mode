@@ -8,7 +8,9 @@
   border-color: rgba(255,255,255,0.1) !important;
   border-width: 2px !important;
 }
-
+#test{
+  background-image: none !important;
+}
 #stage{
   /* 外枠を消去 */
   border-left:none !important;

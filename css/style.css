@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap'); */
 #homework_list  table {
     border-collapse: collapse;
     width: 95%;
@@ -73,7 +74,8 @@ progress {
 *{
   background-color:	rgb(53,57,65) !important;
   color:#fff !important;
-  font-family: 'Sawarabi Gothic', sans-serif !important;
+  /* font-family: 'Sawarabi Gothic', sans-serif !important; */
+  /* font-family: 'Reggae One', cursive !important; */
 }
 #stage{
   /* 外枠を消去 */
@@ -174,7 +176,7 @@ progress {
   border:none !important;
   box-shadow: 0 0 15px 10px rgba(0, 0, 0, .2) !important;
 }
-.cs_table1 tbody tr td,.cs_table1 tbody tr td a{
+.cs_table1 tbody tr td,.cs_table1 tbody tr td a,.cs_table1 tbody tr th{
   pointer-events: none !important;
   transition: .3s !important;
 }

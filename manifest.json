@@ -3,6 +3,9 @@
     "manifest_version": 3,
     "version": "1.0.1",
     "description": "This extension change YNU-LMS's theme to dark",
+    "permissions": [
+        "fontSettings"
+    ],
     "host_permissions": [
         "https://lms.ynu.ac.jp/lms/homeHoml/"
     ],
@@ -68,6 +71,20 @@
                 "js/linkKougi.js"
             ]
             
+        },
+        {
+            "matches": ["https://lms.ynu.ac.jp/lms/*"],
+            "css": ["css/font.css"]
+        }
+    ],
+    "web_accessible_resources": [
+        {
+            "resources": [
+                "font/*.ttf"
+            ],
+            "matches": [
+                "https://lms.ynu.ac.jp/*"
+            ]
         }
     ]
 }

@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "maka";
+  /* src: url(chrome-extension://__MSG_@@extension_id__/font/maka.ttf); */
+  src: url(chrome-extension://__MSG_@@extension_id__/font/SoukouMincho.ttf);
+}
+*{
+  font-family: 'maka', sans-serif !important;
+  line-height: 1.5;
+}

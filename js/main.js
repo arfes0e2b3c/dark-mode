@@ -1,3 +1,10 @@
+// let font = new FontFace("maka", "url('https://fonts.googleapis.com/css2?family=Reggae+One&display=swap')");
+// document.fonts.add(font);
+
+// let fontOption = new Option(String, String);
+// fontOption.setAttribute("style", `font-family:"maka"`);
+// document.body.append(fontOption);
+
 omit();
 function omit() {
   const elements = document.getElementsByTagName("a");
